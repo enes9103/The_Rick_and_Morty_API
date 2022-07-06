@@ -1,7 +1,16 @@
+/* .homeContainer{
+
+} */
+
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
   gap: 10px;
 }
 
