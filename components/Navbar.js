@@ -24,7 +24,7 @@ const Navbar = () => {
           </a>
         </span>
         <span>
-          <a href="/blog" className={styles.link}>
+          <a href="/about" className={styles.link}>
             ABOUT
           </a>
         </span>
