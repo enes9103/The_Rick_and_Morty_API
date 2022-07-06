@@ -20,12 +20,12 @@ const Navbar = () => {
         </span>
         <span>
           <a href="/" className={styles.link}>
-            CHARACTERS
+            
           </a>
         </span>
         <span>
           <a href="/blog" className={styles.link}>
-            BLOG
+            ABOUT
           </a>
         </span>
       </nav>
