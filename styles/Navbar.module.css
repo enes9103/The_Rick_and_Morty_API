@@ -19,7 +19,7 @@
     list-style-type: none;
 }
 
-.rightNav nav span a {
+.link {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -29,7 +29,7 @@
 }
 
 
-.rightNav nav span a:hover {
+.link:hover {
     background-color: #ddd;
     color: black;
 }
