@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #333333;
+    color: #fafafa
+}
+.github{
+    color: rgb(122, 122, 181);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        font-size: 11px;
+        background-color: #333333;
+        color: #fafafa
+    }
+
+}

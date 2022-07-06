@@ -4,6 +4,7 @@ import Cards from '../components/Cards'
 import styles from '../styles/Home.module.css'
 
 
+
 export const getStaticProps = async () => {
   const res = await fetch('https://rickandmortyapi.com/api/character')
   const data = await res.json()

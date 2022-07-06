@@ -13,22 +13,6 @@
     align-items: center;
 }
 
-.leftNav p {
-    color: white;
-    font-size: 30px;
-    padding-left: 10px;
-
-}
-
-.leftNav p a {
-    cursor: pointer;
-
-}
-
-.title {
-    text-decoration: none;
-}
-
 .rightNav nav {
     display: flex;
     justify-content: flex-start;
