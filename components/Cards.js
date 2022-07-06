@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from './Card'
+import styles from '../styles/Home.module.css'
 
 const Cards = ({ results }) => {
     console.log(results)
     return (
-        <div>
+        <div  className={styles.cardsContainer}>
             {results.map((result) => (
-                <div className='grid' key={result.id}>
+                <div key={result.id}>
                     <Card result={result} />
                 </div>
             ))}

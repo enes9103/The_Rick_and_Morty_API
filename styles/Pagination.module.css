@@ -1,0 +1,30 @@
+.container-pagination {
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.pagination {
+    background-color: #171717;
+}
+
+.button-arrow {
+    height: 3rem;
+    width: 3rem;
+    color: #ffffff;
+    background-color: #171717;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.button-arrow:hover {
+    background-color: #DA0037;
+}
