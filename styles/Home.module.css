@@ -1,5 +1,16 @@
-/* .homeContainer{
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+/* .grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 } */
 
 .cardContainer {
@@ -12,6 +23,7 @@
   width: 80%;
   max-width: 1200px;
   gap: 10px;
+  grid-gap: 10px;
 }
 
 .card {

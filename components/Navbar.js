@@ -19,7 +19,7 @@ const Navbar = () => {
           </a>
         </span>
         <span>
-          <a href="/" className={styles.link}>
+          <a href="/episodes" className={styles.link}>
             EPISODES
           </a>
         </span>
