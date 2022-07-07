@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
+// COMPONENTS
 import Cards from '../components/Cards'
 import Pagination from '../components/Pagination';
+// STYLE & IMG
 import styles from '../styles/Home.module.css'
 import Image from "next/image"
 import bannerImg from '../public/banner.webp'
@@ -23,7 +25,11 @@ export default function Home() {
       .catch((err) => console.log(err));
   };
 
+  useEffect(() => {
+    fetchCharacters(API_URL);
+  }, []);
 
+  //PAGİNATİON
   const goToTop = () => {
     window.scrollTo({
       top: 0,
@@ -40,10 +46,6 @@ export default function Home() {
     fetchCharacters(info.next);
     goToTop();
   };
-
-  useEffect(() => {
-    fetchCharacters(API_URL);
-  }, []);
 
   return (
     <div className={styles.homeContainer}>

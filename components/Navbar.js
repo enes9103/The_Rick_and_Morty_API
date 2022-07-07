@@ -1,8 +1,8 @@
+import Link from "next/link"
+// STYLE & IMG
 import styles from "../styles/Navbar.module.css"
 import Image from "next/image"
 import logo from "../public/logo-2.png"
-import Link from "next/link"
-
 
 const Navbar = () => {
   return (
