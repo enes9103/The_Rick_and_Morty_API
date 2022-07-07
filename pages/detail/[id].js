@@ -23,26 +23,22 @@ const CharacterDetails = ({ detail }) => {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
       </Head>
       <h1 className='text-center display-4 m-4 '>{detail.name}</h1>
-      <div className="card mb-3" style={{ maxWidth: "560px" }}>
-        <div className="row no-gutters">
-          <div className="col-md-4">
-            <img src={detail.image} className="card-img" style={{ width: "260px", height: "260px" }} alt={detail.name} />
-          </div>
-          <div className="col-md-8">
-            <div className="card-body" style={{ marginLeft: "5rem" }}>
-              <h5 className="card-title">Name: {detail.name}</h5>
-              <p className="card-text">Status: {detail.status}</p>
-              <p className="card-text">Gender: {detail.gender}</p>
-              <p className="card-text">Species: {detail.species}</p>
-              <p className="card-text">Location: {detail.location?.name}</p>
-              <p className="card-text">Originally From: {detail.origin?.name}</p>
-            </div>
-          </div>
+      <div class="card" style={{ maxWidth: "18rem" }}>
+        <img class="card-img-top" src={detail.image} alt="Card image cap" />
+        <div class="card-body">
+          <h4>Name: {detail.name}</h4>
+          <p class="card-text">
+            Status: {detail.status} <br />
+            Gender: {detail.gender} <br />
+            Species: {detail.species} <br />
+            Location: {detail.location?.name} <br />
+            Originally From: {detail.origin?.name}
+          </p>
         </div>
+          <Link href="/">
+            <button className="btn btn-primary">Go Back Home</button>
+          </Link>
       </div>
-        <Link href="/">
-          <button className="btn btn-primary">Go Back Home</button>
-        </Link>
     </div>
   )
 }
