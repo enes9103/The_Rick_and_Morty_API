@@ -45,7 +45,6 @@ export default function Home() {
     fetchCharacters(API_URL);
   }, []);
 
-
   return (
     <div className={styles.homeContainer}>
       <Head>
@@ -55,7 +54,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
       </Head>
       <div>
-        <h1 className='text-center display-4 text-orange fw-bolder'>Rick and Morty</h1>
+        <h1 className='text-center display-4 mt-2'>Rick and Morty</h1>
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 my-5 ">
           <Image src={bannerImg} alt="Rick-and-Morty" className={styles.homeImage}/>
           <div className="mt-5 fs-4">

@@ -11,6 +11,8 @@
 .leftNav {
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 
 .rightNav nav {

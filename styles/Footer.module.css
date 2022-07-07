@@ -3,7 +3,8 @@
     justify-content: space-evenly;
     flex-direction: row;
     background-color: #333333;
-    color: #fafafa
+    color: #fafafa;
+    padding-top: 16px;
 }
 .github{
     color: rgb(122, 122, 181);
@@ -17,7 +18,8 @@
         flex-direction: row;
         font-size: 11px;
         background-color: #333333;
-        color: #fafafa
+        color: #fafafa;
+        padding-top: 16px;
     }
 
 }
