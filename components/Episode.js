@@ -6,15 +6,15 @@ const Cards = ({ results }) => {
     return (
         <div className={styles.episodeCard}>
             {results.map((result) => (
-            <div class="card" key={result.id} style={{width:"22rem"}}>
-                <div class="card-body">
-                    <h5 class="card-title">Episode Name : {result.name}</h5>
-                    <p class="card-text">Episode : {result.episode}</p>
-                    <p class="card-text">Episode Air Date : {result.air_date}</p>
+            <div className="card" key={result.id} style={{width:"22rem"}}>
+                <div className="card-body mt-2">
+                    <h5 className="card-title">Episode Name : {result.name}</h5>
+                    <p className="card-text">Episode : {result.episode}</p>
+                    <p className="card-text">Episode Air Date : {result.air_date}</p>
                 </div>
             </div>
             ))}
-            <a href="/" class="btn btn-primary">Go Back Home</a>
+            <a href="/" className="btn btn-primary">Go Back Home</a>
         </div>
     )
 }
