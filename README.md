@@ -104,7 +104,7 @@ _Below is an example of how you can instruct your audience on installing and set
     Runs the app in the development mode.\
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<p align="right">(<a href="#top">back to top</a>)</p>c
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- DEVELOPMENT PROCESS -->
